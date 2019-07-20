@@ -1,0 +1,47 @@
+# Global gitignore
+
+# Vim files
+*.swp
+.netrwhist
+*~
+
+# Svn / Mercurial
+.svn/
+.hg/
+.hgignore
+.hgsigs
+.hgsub
+.hgsubstate
+.hgtags
+
+# logs
+*.log
+
+# Usual backup file extentions
+*.bk
+*.bak
+*.orig
+*.tmp
+*.old
+
+# MacOS
+.DS_Store
+
+# Archives
+*.zip
+*.tar
+*.rar
+*.jar
+*.7z
+*.tz
+*.gz
+*.tgz
+*.bzip
+*.bz2
+
+# Installers / Binaries / Packages
+*.rpm
+*.iso
+*.gem
+*.deb
+*.dmg

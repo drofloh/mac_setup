@@ -1,0 +1,9 @@
+---
+:sources:
+- https://rubygems.org/
+gem: --no-document
+:verbose: true
+:benchmark: false
+:backtrace: false
+
+

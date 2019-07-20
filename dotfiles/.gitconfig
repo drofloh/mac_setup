@@ -1,0 +1,49 @@
+[user]
+  name = Andrew Holford
+  email = andrewholford@gmail.com
+[core]
+  editor = vim
+  excludesfile = ~/.gitignore
+[color]
+  ui = auto
+[color "branch"]
+  current = yellow bold
+  local = green bold
+  remote = cyan bold
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+  whitespace = red reverse
+[color "status"]
+  added = green bold
+  changed = yellow bold
+  untracked = red bold
+[commit]
+  verbose = true
+[diff]
+  tool = vimdiff
+[alias]
+  a=add -A
+  b=branch
+  c=clone
+  cam=commit -am
+  com=checkout master
+  co=checkout
+  cob=checkout -b
+  cp=cherry-pick
+  d=diff
+  dc=diff --cached
+  l=log
+  ls=ls-files
+  m=merge
+  p=push
+  pl=pull
+  plm=pull origin master
+  pm=push origin master
+  rm=rm
+  s=status
+  ss=status -s -b
+  t=tag
+  tl=tag --list
