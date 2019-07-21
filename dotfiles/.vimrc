@@ -2,6 +2,9 @@
 " vim configuration
 "
 
+" Support unicode
+set encoding=utf-8
+
 " use § as escape key cos escape on apple touch bar is annoying
 :imap § <Esc>
 
@@ -60,12 +63,6 @@ set title
 
 " Show paragraph last line if possible
 set display+=lastline
-
-" Support unicode
-set encoding=utf-8
-
-" Avoid linebreak in middle of words
-set linebreak
 
 " Enable line wrap
 set wrap
