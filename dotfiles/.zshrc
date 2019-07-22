@@ -2,7 +2,30 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/andrewholford/.oh-my-zsh"
+#export ZSH="/Users/andrewholford/.oh-my-zsh"
+export ZSH="${HOME}/.oh-my-zsh"
+
+# Add rbenv to PATH and setup if command exists
+if [ -x "$(command -v rbenv)" ]; then
+  export PATH="${HOME}/.rbenv/shims:${PATH}"
+  export RBENV_SHELL=zsh
+  source '/usr/local/Cellar/rbenv/1.1.2/libexec/../completions/rbenv.zsh'
+  command rbenv rehash 2>/dev/null
+  rbenv() {
+    local command
+    command="${1:-}"
+    if [ "$#" -gt 0 ]; then
+      shift
+    fi
+
+    case "$command" in
+    rehash|shell)
+      eval "$(rbenv "sh-$command" "$@")";;
+    *)
+      command rbenv "$command" "$@";;
+    esac
+  }
+fi
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
