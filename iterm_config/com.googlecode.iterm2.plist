@@ -12,6 +12,8 @@
 	<integer>1</integer>
 	<key>AppleWindowTabbingMode</key>
 	<string>manual</string>
+	<key>CopyLastNewline</key>
+	<false/>
 	<key>Default Bookmark Guid</key>
 	<string>8254E488-DCA9-45F0-B592-CD96968E9ABE</string>
 	<key>DimBackgroundWindows</key>
@@ -73,6 +75,8 @@
 	<string>0 463 796 486 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>51 -7 1602 1027 0 0 1680 1027 </string>
+	<key>NSWindow Frame iTerm Window 1</key>
+	<string>318 370 652 453 0 0 1680 1027 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -796,7 +800,7 @@
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
-			<string>/Users/andrewholford</string>
+			<string>~</string>
 		</dict>
 	</array>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
@@ -843,7 +847,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/andrewholford/src/github.com/drofloh/mac_setup/iterm_config</string>
+	<string>~/src/github.com/drofloh/mac_setup/iterm_config</string>
 	<key>SUEnableAutomaticChecks</key>
 	<false/>
 	<key>SUFeedAlternateAppNameKey</key>

@@ -11,7 +11,7 @@ rbenv init
 
 Add below to ~/.zshrc
 ```
-export PATH="/Users/andrewholford/.rbenv/shims:${PATH}"
+export PATH="${HOME}/.rbenv/shims:${PATH}"
 export RBENV_SHELL=zsh
 source '/usr/local/Cellar/rbenv/1.1.2/libexec/../completions/rbenv.zsh'
 command rbenv rehash 2>/dev/null
