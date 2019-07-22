@@ -30,6 +30,9 @@ rbenv() {
   esac
 }
 ```
+
+The above has now been added to [oh-my-zsh-custom](https://github.com/drofloh/oh-my-zsh-custom).
+
 ## Useful commands
 
 - show all versions available to user / known to rbenv
