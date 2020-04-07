@@ -29,3 +29,8 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 source ~/src/github.com/zsh-users/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/src/github.com/zsh-users/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# go 
+export GOPATH=$HOME/go
+export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:$GOPATH/bin

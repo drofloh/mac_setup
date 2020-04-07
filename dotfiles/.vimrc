@@ -5,9 +5,6 @@
 " Support unicode
 set encoding=utf-8
 
-" use § as escape key cos escape on apple touch bar is annoying
-:imap § <Esc>
-
 " enable syntax highlighting
 syntax on
 
